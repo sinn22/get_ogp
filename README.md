@@ -46,3 +46,6 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the GetOgp project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/sinn22/get_ogp/blob/master/CODE_OF_CONDUCT.md).
+
+
+If you have any questions, feel free to ask for https://twitter.com/nosuk_11
