@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 open_graph = GetOgp.get_data("https://ogp.me")
 open_graph['title'] # => "Open Graph protocol"
 open_graph['type'] # => "website"
