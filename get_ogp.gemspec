@@ -4,16 +4,16 @@ Gem::Specification.new do |spec|
   spec.name          = "get_ogp"
   spec.version       = GetOgp::VERSION
   spec.authors       = ["sinn22"]
-  spec.email         = ["sinn22@gmail.com"]
+  spec.email         = ["sinn.rails@gmail.com"]
 
   spec.summary       = %q{To get website ogp data.}
-  spec.description   = %q{To get website ogp data.For example, image, title, description...}
-  spec.homepage      = "https://github.com/sinn22/get_ogp"
+  spec.description   = %q{To get website ogp data. For example, image, title, description, type...}
+  spec.homepage      = "https://rubygems.org/gems/get_ogp"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://rubygems.org"
+  spec.metadata["source_code_uri"] = "https://github.com/sinn22/get_ogp"
   spec.metadata["changelog_uri"] = "https://github.com/sinn22/get_ogp"
 
   # Specify which files should be added to the gem when it is released.
