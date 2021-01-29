@@ -4,7 +4,7 @@
 
 require 'nokogiri'
 require 'faraday'
-
+require 'active_support'
 module GetOgp
   def self.get_data(url)
     response = Faraday.get(url)
@@ -15,8 +15,7 @@ module GetOgp
         ogp_date[$1] = meta.attribute('content').to_s
       end
     end
-
-    ogp_date['title'] = html.css('title')&.text unless ogp_date.has_key?('title')
+    ogp_date['title'] = html.css('title')&.text if !ogp_date.has_key?('title') && html.css('title')&.text.present?
     return false if ogp_date.keys.empty?
     ogp_date
   rescue => e

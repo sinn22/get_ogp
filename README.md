@@ -33,7 +33,7 @@ open_graph['url'] # => "https://ogp.me/"
 not_exist_open_graph = GetOgp.get_data("http://example.com")
 open_graph['title'] # => "Example Domain"
 
-# if ogp and title tag are not exist, return title tag text
+# if ogp and title tag are not exist, return false
 ```
 
 ## Contributing
