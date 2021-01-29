@@ -15,7 +15,7 @@ RSpec.describe GetOgp do
 
   it 'not exist ogp' do
     ogp = GetOgp.get_data('http://example.com')
-    expect(ogp).to eq(false)
+    expect(ogp['title']).to eq('Example Domain')
   end
 
   it 'url is not exist' do

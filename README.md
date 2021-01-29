@@ -22,15 +22,18 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
+# get ogp data if property="og:~" or name="og:~" is exist
 open_graph = GetOgp.get_data("https://ogp.me")
 open_graph['title'] # => "Open Graph protocol"
 open_graph['type'] # => "website"
 open_graph['image'] # => "https://ogp.me/logo.png"
 open_graph['url'] # => "https://ogp.me/"
 
-# if ogp is not exist, return false
-not_exist_open_graph = GetOgp.get_data(""http://example.com")
-not_exist_open_graph # => false
+# if ogp is not exist, return title tag text
+not_exist_open_graph = GetOgp.get_data("http://example.com")
+open_graph['title'] # => "Example Domain"
+
+# if ogp and title tag are not exist, return title tag text
 ```
 
 ## Contributing
