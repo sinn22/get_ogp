@@ -8,13 +8,10 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{To get website ogp data.}
   spec.description   = %q{To get website ogp data. For example, image, title, description, type...}
-  spec.homepage      = "https://rubygems.org/gems/get_ogp"
+  spec.homepage      = "https://github.com/sinn22/get_ogp"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
-
-  spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/sinn22/get_ogp"
-  spec.metadata["changelog_uri"] = "https://github.com/sinn22/get_ogp"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
